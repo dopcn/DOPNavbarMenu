@@ -3,7 +3,7 @@ expand navigationbar with more items
 
 gif better than any words.
 
-![image](https://github.com/dopcn/DOPNavbarMenu/blob/master/images/sample.gif)
+![image](https://github.com/dopcn/DOPNavbarMenu/blob/master/Images/sample.gif)
 
 ### `@interface`
 ```objc
