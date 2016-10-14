@@ -76,6 +76,7 @@ static CGFloat titleFontSize = 15.0;
         CGFloat buttonX = (idx % self.maximumNumberInRow) * buttonWidth;
         CGFloat buttonY = ((idx / self.maximumNumberInRow)+1) * buttonHeight;
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.accessibilityLabel = obj.title; //for users of voiceOver
         button.frame = CGRectMake(buttonX, buttonY, buttonWidth, buttonHeight);
         button.tag = idx;
         [self addSubview:button];
